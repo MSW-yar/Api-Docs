@@ -1,0 +1,214 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>API Document</title>
+</head>
+<body>
+    <div>
+        <div style="width: 80%; margin-left: 10%; margin-right: 10%">
+            <div class="card-panel teal lighten-2; center-align"><h1> DMS4IOT SERVER API DOCUMENTATION </h1></div>
+            <div>
+                <div>
+                    <div>
+                        <h4> USER </h4>
+                    </div>
+                    <div style="text-align: right">
+                        <!-- Dropdown Trigger -->
+                          <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Version 0.2.0 </a>
+                            <!-- Dropdown Structure -->
+                            <ul id='dropdown1' class='dropdown-content'>
+                                <li><a href="#!">Version 0.2.0</a></li>
+                                <li><a href="#!">Version 0.1.0</a></li>
+                                <li class="divider" tabindex="-1"></li>
+                                <li class= "#!"> Compare Versions </li>
+                            </ul>
+                            <script>
+                                  document.addEventListener('DOMContentLoaded', function() {
+                                    var elems = document.querySelectorAll('.dropdown-trigger btn');
+                                    var instance = M.Dropdown.init(elems, hover);
+                                    var instance = M.Dropdown.getInstance(elem);
+                                    instance.open();
+                                    instance.close();
+                                });
+                                
+                            </script>
+                    </div>
+                </div>
+                    <h5 class=" pink lighten-2; center-align"> User Information</h5>      
+                    <div style="width: 40%; margin-left: 25%; margin-right: 35%">
+                        <table class ="highlight">
+                            <thead>
+                              <tr>
+                                  <th>User</th>
+                                  <th>User UUID</th>
+                              </tr>
+                            </thead>
+                    
+                            <tbody>
+                              <tr>
+                                <td>folkert</td>
+                                <td>baby</td>
+                              </tr>
+                              <tr>
+                                <td>Golf</td>
+                                <td>Hitler</td>
+                              </tr>
+                              <tr>
+                                <td>Wolfram</td>
+                                <td>Nazi</td>
+                              </tr>
+                            </tbody>
+                        </table>
+                    </div> 
+            </div>
+
+            <div>
+                <h5 class=" pink lighten-2; center-align"> GET </h5>
+                <div style="width: 40%; margin-left: 25%; margin-right: 35%"> 
+                        <h5 class="teal lighten-3">SUCCESS</h5>
+                        <div>
+                            <table class ="highlight">
+                                <thead>
+                                  <tr>
+                                      <th>User</th>
+                                      <th>User UUID</th>
+                                      <th>Message</th>
+                                  </tr>
+                                </thead>
+                        
+                                <tbody>
+                                  <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                  </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div> 
+                            <h5 class="teal lighten-3">ERROR</h5>
+                            <div>
+                               <table class ="highlight">
+                                    <thead>
+                                    <tr>
+                                        <th>User</th>
+                                        <th>User UUID</th>
+                                        <th>Message</th>
+                                    </tr>
+                                    </thead> 
+                                    <tbody>
+                                      <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                       </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                    </div>
+            </div>
+        </div>
+            <div>
+                <h5 class=" pink lighten-2; center-align"> POST </h5>
+                <div style="width: 40%; margin-left: 25%; margin-right: 35%"> 
+                        <h5 class="teal lighten-3">SUCCESS</h5>
+                        <div>
+                            <table class ="highlight">
+                                <thead>
+                                  <tr>
+                                      <th>User</th>
+                                      <th>User UUID</th>
+                                      <th>Message</th>
+                                  </tr>
+                                </thead>
+                        
+                                <tbody>
+                                  <tr>
+                                    <td>Ubadah</td>
+                                    <td>54641064810684ff</td>
+                                    <td>USER UPDATED</td>
+                                  </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div> 
+                                <h5 class="teal lighten-3">ERROR</h5>
+                                <div>
+                                    <table class ="highlight">
+                                        <thead>
+                                          <tr>
+                                              <th>User</th>
+                                              <th>User UUID</th>
+                                              <th>Message</th>
+                                          </tr>
+                                        </thead>
+                                
+                                        <tbody>
+                                          <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                          </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+    
+                    </div>
+            </div>
+            <div>
+                <h5 class="pink lighten-2; center-align"> PUT </h5>
+                <div style="width: 40%; margin-left: 25%; margin-right: 35%"> 
+                    <h5 class="teal lighten-3">SUCCESS</h5>
+                    <div>
+                        <table class ="highlight">
+                            <thead>
+                              <tr>
+                                  <th>User</th>
+                                  <th>User UUID</th>
+                                  <th>Message</th>
+                              </tr>
+                            </thead>
+                    
+                            <tbody>
+                              <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                              </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div> 
+                            <h5 class="teal lighten-3">ERROR</h5>
+                            <div>
+                                <table class ="highlight">
+                                    <thead>
+                                      <tr>
+                                          <th>User</th>
+                                          <th>User UUID</th>
+                                          <th>Message</th>
+                                      </tr>
+                                    </thead>
+                            
+                                    <tbody>
+                                      <tr>
+                                        <td>Usairim</td>
+                                        <td>2658484952921215ff</td>
+                                        <td>ERROR 404</td>
+                                      </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                </div>
+            
+            </div>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
